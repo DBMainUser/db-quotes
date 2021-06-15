@@ -3,8 +3,8 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:917382@localhost/quotes'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://feovitsesyuuzz:d3ae7ba24339a513d5623d19b07a0e03739762d795f8d706327a7cfeef8ab75f@ec2-54-72-155-238.eu-west-1.compute.amazonaws.com:5432/d8pi64t5tdp2de'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:917382@localhost/quotes'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://hxgaotcblvlidk:fe2575f7dfb223abf758fde776702d597b168fc93917b9213ed7631fa55422b3@ec2-34-252-251-16.eu-west-1.compute.amazonaws.com:5432/d9s0bqpr9d3j1'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
